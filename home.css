@@ -1,6 +1,8 @@
 #cabecario{
     background: linear-gradient(to right, #614C86, #969CD4);
     border-bottom-left-radius: 180px;
+    margin: 0;
+    
 }
 
 h1{
@@ -10,6 +12,7 @@ h1{
     position: relative;
     left: 30px;
     right: 0px;
+    margin-top: 0;
 }
 
 #formatura{
@@ -136,4 +139,5 @@ button{
     margin-left: 50px;
     background-color: transparent;
     color: #4C5186;
+    cursor: pointer;
 }
