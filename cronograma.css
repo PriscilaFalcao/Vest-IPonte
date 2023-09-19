@@ -1,0 +1,128 @@
+footer{
+    background-color: #FEC956;
+}
+
+.coluna1{
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+}
+
+#endereco{
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+    text-align: right;
+}
+
+#colunas{
+    display: flex;
+}
+
+#cronograma{
+    width: 550px;
+    height: auto;
+    display: inline;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+
+h1{
+    color: #797FBB;
+    font-size: 96px;
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    margin-left: 20px;
+}
+
+.texto{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+#comeco{
+    display: flex;
+}
+
+#parte1{
+    display: inline;
+}
+
+h2{
+    font-family: 'Gugi', sans-serif;
+    color: #797FBB;
+    font-size: 30px;
+    display: inline;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: #FEC956;
+    border-width: 5px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+h3{
+    font-size: 24px;
+    color: #797FBB;
+}
+
+#dicas{
+    display: flex;
+}
+
+#apps{
+    width: 390px;
+    height: auto;
+}
+
+#frameworks{
+    width: 400px;
+    height: auto;
+}
+
+.coluna2{
+    border: solid 3px;
+    border-radius: 20px;
+}
+
+#dicas{
+    margin-top: 30px;
+}
+
+.dica{
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    background-color: #FFF1D3;
+}
+
+#instituto{
+    width: 50px;
+    height: auto;
+}
+
+header{
+    border-bottom: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: solid 0px;
+    font-family: 'Kara', sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    background-color: transparent;
+    color: #4C5186;
+}
+
+#contatos{
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+}
