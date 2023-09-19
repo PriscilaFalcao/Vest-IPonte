@@ -1,0 +1,80 @@
+
+   /* Estilos para a barra de navegação */
+   .navbar {
+       background-color: #ffffff; 
+       overflow: hidden;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-weight: 600;
+       box-shadow:0px 5px 5px rgba(0, 0, 0, 0.183);
+   }
+   
+   /* Estilos para o logo na esquerda */
+   .navbar .logo {
+       float: left; /* Alinha o logo à esquerda */
+       padding: 10px 20px; /* Espaçamento interno do logo */
+       /* color: #fff; Cor do texto do logo *
+       font-size: 24px; /* Tamanho da fonte do logo */
+   }
+   
+   /* Estilos para as opções de página na direita */
+   .navbar .nav-links {
+       float: right; /* Alinha as opções à direita */
+       list-style: none; /* Remove marcadores de lista */
+       margin: 0; /* Remove margem padrão */
+       padding-top: 20px; /* Remove preenchimento padrão */
+   }
+   
+   /* Estilos para os itens de menu */
+   .navbar .nav-links li {
+       display: inline-block; /* Exibe os itens na mesma linha */
+       margin: 0 10px; /* Espaçamento horizontal entre os itens */
+   }
+   
+   /* Estilos para os links de menu */
+   .navbar .nav-links li a {
+       color: #4C5186; /* Cor do texto dos links */
+       text-decoration: none; /* Remove sublinhado dos links */
+       font-size: 16px; /* Tamanho da fonte dos links */
+   }
+   
+   /* Estilos para os links de menu ao passar o mouse sobre eles */
+   .navbar .nav-links li a:hover {
+       border-bottom: 2px solid #4C5186; /* Adiciona uma linha inferior ao passar o mouse */
+   }
+   
+   footer {
+    background-color: rgba(254,201,86,1);
+    color: #fff;
+    padding: 10px;
+    align-content: center;
+}
+
+/* Estilo para as colunas de informações */
+.info-column {
+    width: 30%;
+    float: left;
+    padding: 0 20px;
+}
+
+/* Estilo para o título das colunas */
+.column-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para as informações de contato */
+.contact-info {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o endereço e CNPJ */
+.address {
+    font-size: 10px;
+}
+
+/* Limpar o float para evitar problemas de layout */
+.clear {
+    clear: both;
+}
